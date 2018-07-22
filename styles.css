@@ -1,0 +1,30 @@
+body {
+    background: url('./upfeathers/upfeathers/upfeathers.png');
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    width: 70vw;
+    height: 96vh;
+}
+
+.quote {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.person {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-box-shadow: 2px 2px 8px 2px #5d5d5d;
+    -moz-box-shadow: 2px 2px 8px 2px #5d5d5d;
+    box-shadow: 2px 2px 8px 2px #5d5d5d;
+}
+
+.picture {
+    width: 100%;
+
+}
