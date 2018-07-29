@@ -17,7 +17,7 @@ body {
 .person {
     width: 100%;
     position: relative;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     -webkit-box-shadow: 2px 2px 8px 2px #5d5d5d;
     -moz-box-shadow: 2px 2px 8px 2px #5d5d5d;
@@ -27,4 +27,21 @@ body {
 .picture {
     width: 100%;
 
+}
+
+#birthday {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    padding-top: 4rem;
+    color: #ea3800;
+    animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+    0% { color: rgb(142, 128, 255); }
+    20% { color: rgb(255, 128, 168); }
+    40% { color: rgb(128, 255, 170); }
+    60% { color: rgb(172, 255, 128); }
+    80% { color: rgb(255, 191, 128); }
+    100% { color: rgb(142, 128, 255); }
 }
