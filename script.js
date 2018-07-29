@@ -13,6 +13,10 @@ function randomPerson(data) {
     return data[Math.floor(randomBetween(0, data.length))]
 }
 
+function getHenry(data) {
+    return data[2]
+}
+
 function generatePerson(personData) {
     const { name, picture, quotes } = personData
     
@@ -62,6 +66,7 @@ function sayQuote(quotes, el) {
 
 
 document.addEventListener("DOMContentLoaded", e => {
-    const person = randomPerson(data)
+    // const person = randomPerson(data)
+    const person = getHenry(data)
     generatePerson(person)
 })
